@@ -1,7 +1,7 @@
 var engine,world;
 
 function preload(){
-  plr = loadImage("plr.png")
+  plr = loadImage("5.png")
 }
 function setup(){
   createCanvas(1450,770)
@@ -37,7 +37,7 @@ function setup(){
 }
 
 function draw(){
-  background("Teal")
+  background("black")
   Matter.Engine.update(engine)
   //display box1,box2
 boundary1.display()
